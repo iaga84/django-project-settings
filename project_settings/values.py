@@ -46,7 +46,7 @@ class PasswordValue(Value):
 
 class TextValue(Value):
     widget = TextInput
-    func = unicode
+    # func = unicode
 
 
 class ListValue(Value):
