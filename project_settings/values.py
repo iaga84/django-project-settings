@@ -70,7 +70,7 @@ default_mapping = (((bool,), BoolValue),
                    ((list, tuple), ListValue),
                    ((six.string_types,), StringValue),
                    ((datetime, date), DateValue),
-                   ((int, long), IntegerValue),)
+                   ((int,), IntegerValue),)
 
 
 def get_descriptor(value):
